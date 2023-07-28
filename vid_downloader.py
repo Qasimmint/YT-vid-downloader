@@ -2,7 +2,7 @@ from pytube import YouTube
 from pytube import Playlist
 
 def sole_video():
-    url = "https://www.youtube.com/watch?v=Kljl8oRoaX8"
+    url = "Enter URL of youTube video here"
     vid_tube = YouTube(url)
     title = vid_tube.title
     views = vid_tube.views
